@@ -142,6 +142,3 @@ Se você está interessado em colaborar ou saber mais sobre meus projetos, sinta
 ## Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
-```
-
-Este README agora inclui uma explicação detalhada sobre os estilos CSS utilizados no projeto, junto com as informações anteriores sobre o HTML e o propósito do portfólio.
