@@ -1,6 +1,6 @@
 # Portfólio Pessoal
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/tabela-fipe/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/portifolio_luis_fernando/blob/main/LICENSE)
 
 Este é o código do meu **portfólio pessoal**, que apresenta meu trabalho como **desenvolvedor Front-end** com foco em **React, HTML e CSS**. O objetivo é mostrar minhas habilidades e facilitar o contato com potenciais clientes e colaboradores.
 
@@ -148,5 +148,7 @@ Luís Fernando Silva do Nascimento
 https://www.linkedin.com/in/lu%C3%ADs-fernando-nascimento/
 
 ## Licença
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/portifolio_luis_fernando/blob/main/LICENSE)
 
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
