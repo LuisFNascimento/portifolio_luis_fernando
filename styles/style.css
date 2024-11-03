@@ -9,7 +9,6 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    
 }
 
 .cabecalho {
@@ -38,8 +36,6 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);  
-
-
 }
 
 .apresentacao {
@@ -47,41 +43,34 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5% 15%;
-
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
-
 }
 
 .apresentacao__conteudo__titulo{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria) ;
-
 }
 
 .titulo-negrito-azul{
     color: var(--cor-terciaria);
 }
 
-
 .apresentacao__conteudo__paragrafo{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-    font-weight: 400;
-   
+    font-weight: 400; 
 }
 
 .imagem {
-    width: 38%;
-    height: 50%;
-    margin-top: 50px;
+    width: 50%;
     border-radius: 16px;
-
 }
 
 .apresentacao__links {
@@ -89,8 +78,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
-       
+    gap: 32px;   
 }
 
 .apresentacao__links_subtitulo {
@@ -99,8 +87,8 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
-    width: 378px;
+.apresentacao__links__navegacao {
+    width: 50%;
     border-radius: 8px;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -113,8 +101,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-
 }
+
 .apresentacao__links__link:hover{
     background-color: var(--cor-terciaria);
 }
@@ -127,5 +115,10 @@ body {
     font-weight: 400;
     padding: 24px;
     text-align: center;
-    
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
