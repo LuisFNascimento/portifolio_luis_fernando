@@ -31,11 +31,14 @@ body {
 }
 
 .cabecalho_menu_link {
+    width: 28%;
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--cor-terciaria);  
+    color: var(--cor-terciaria); 
+    text-align: left;
+    margin: 2px 0px 5px 0px;
 }
 
 .cabecalho_menu_link:hover {
@@ -78,25 +81,37 @@ body {
     border-radius: 16px;
 }
 
+.imagem-telefone {
+    width: 15%;
+}
+
+.btn-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;   
+    gap: 15px;   
 }
 
 .apresentacao__links_subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
+
+    
 }
 
 .apresentacao__links__navegacao {
     width: 50%;
     border-radius: 8px;
     font-family: var(--fonte-secundaria);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-align: center;
@@ -105,7 +120,13 @@ body {
     border: 2px solid var(--cor-terciaria);
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
+    
+}
+
+.apresentacao__links__navegacao:hover{
+    background-color: var(--cor-terciaria);
+    transform: scale(1.1);
 }
 
 .apresentacao__links__link:hover{
@@ -116,9 +137,9 @@ body {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 24px;
+    padding: 10px;
     text-align: center;
 }
 
